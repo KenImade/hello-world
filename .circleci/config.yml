@@ -34,4 +34,4 @@ workflows:
       - say-hello
       - say-hello-again:
           requires:
-            - say-hello-again
+            - say-hello
